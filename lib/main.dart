@@ -18,6 +18,25 @@ class MyApp extends StatelessWidget {
                 radius: 50,
                 backgroundImage: AssetImage('images/jin.jpg'),
               ),
+              Text(
+                'Jin Jason',
+                style: TextStyle(
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                  fontFamily: 'Pacifico',
+                ),
+              ),
+              Text(
+                'FLUTTER DEVELOPER',
+                style: TextStyle(
+                  fontFamily: 'Source Sans Pro',
+                  color: Colors.teal[100],
+                  fontSize: 20,
+                  letterSpacing: 2.5,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ],
           ),
         ),
